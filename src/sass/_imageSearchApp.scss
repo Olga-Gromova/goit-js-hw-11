@@ -3,8 +3,12 @@ body {
 }
 
 .search-toolbar {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: #4056b4;
-    height: 15%;
 }
 
 .search-form {
